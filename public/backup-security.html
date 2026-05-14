@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Backup и безопасность — OfficeTech Pro</title>
+  <meta name="description" content="Резервное копирование, базовая защита данных и план восстановления." />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="/">OfficeTech Pro</a>
+      <nav>
+        <a href="/">Главная</a>
+        <a href="/#services">Услуги</a>
+        <a href="/#packages">Пакеты</a>
+        <a href="/#contact">Заявка</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="service-detail-hero">
+      <div class="container service-detail-grid">
+        <div>
+          <div class="badge">OfficeTech Pro • IT-услуга</div>
+          <h1>Backup и безопасность, чтобы не потерять важные данные</h1>
+          <p>Настрою резервное копирование, базовую защиту данных, контроль доступа и понятный план восстановления после сбоя.</p>
+          <div class="actions">
+            <a class="btn primary" href="#order">Оставить заявку</a>
+            <a class="btn secondary" href="#tariffs">Смотреть цены</a>
+          </div>
+        </div>
+        <div class="service-detail-card">
+          <span>Стоимость</span>
+          <strong>от 20 000 ₽</strong>
+          <p>Резервное копирование, базовая защита данных и план восстановления.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2>Когда нужна эта услуга</h2>
+          <p>Подходит для разовых задач, небольших офисов и компаний, которым нужно быстро и аккуратно решить технический вопрос.</p>
+        </div>
+        <ul class="detail-list">
+          <li>В компании нет нормального backup</li>
+<li>Файлы хранятся хаотично</li>
+<li>Есть риск потери базы, документов или проектов</li>
+<li>Нужно защитить важные данные</li>
+<li>Нужно понимать, как восстановиться после сбоя</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section dark">
+      <div class="container split">
+        <div>
+          <h2>Что входит в работу</h2>
+          <p>Перед началом я уточняю задачу, оцениваю текущее состояние и предлагаю понятный вариант решения.</p>
+        </div>
+        <div class="feature-list">
+          <div>Аудит важных данных</div>
+<div>Выбор схемы резервного копирования</div>
+<div>Настройка backup по расписанию</div>
+<div>Проверка восстановления</div>
+<div>Базовая защита компьютеров и серверов</div>
+<div>Контроль доступа к важным папкам</div>
+<div>Рекомендации по хранению копий</div>
+<div>Краткая инструкция по восстановлению</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Что вы получите в результате</h2>
+        <div class="result-box">
+          У компании появляется понятная схема резервного копирования и восстановления данных.
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="tariffs">
+      <div class="container">
+        <h2>Варианты стоимости</h2>
+        <div class="cards price-cards">
+          <div class="card price">
+            <h3>Базовый backup</h3>
+            <p>Настройка копирования важных файлов и проверка восстановления.</p>
+            <strong>от 20 000 ₽</strong>
+            <a href="#order" class="btn primary">Оставить заявку</a>
+          </div>
+<div class="card price">
+            <h3>Backup для офиса</h3>
+            <p>Несколько рабочих мест, сервер/диск/облако, расписание.</p>
+            <strong>от 40 000 ₽</strong>
+            <a href="#order" class="btn primary">Оставить заявку</a>
+          </div>
+<div class="card price">
+            <h3>Безопасность + backup</h3>
+            <p>Доступы, защита, backup, рекомендации и документация.</p>
+            <strong>от 60 000 ₽</strong>
+            <a href="#order" class="btn primary">Оставить заявку</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="order">
+      <div class="container split">
+        <div>
+          <h2>Оставьте заявку</h2>
+          <p>Заполните имя, почту и компанию. В комментарии напишите, что именно нужно сделать.</p>
+          <div class="contacts">
+            <a href="tel:+79858889263">+7 985 888 92 63</a>
+            <a href="mailto:galolo066@gmail.com">galolo066@gmail.com</a>
+          </div>
+        </div>
+
+        <form id="leadForm" class="form">
+          <label>Имя *<input name="firstName" required placeholder="Иван"></label>
+          <label>Почта *<input name="email" type="email" required placeholder="name@email.com"></label>
+          <label>Компания *<input name="company" required placeholder="Название компании"></label>
+          <input type="hidden" name="service" value="Backup и безопасность">
+          <label>Комментарий<textarea name="message" rows="4" placeholder="Кратко опишите задачу"></textarea></label>
+          <button class="btn primary full" type="submit">Отправить заявку</button>
+          <p id="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container">OfficeTech Pro © Backup и безопасность</div></footer>
+  <script src="/script.js"></script>
+</body>
+</html>
